@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f3f3f3;
+}
+
+.title {
+  color:#aedb7a;
+  font-family: Poppins, sans-serif;
+}
+
+header,
+nav,
+main,
+footer {
+  margin: 1.25rem auto;
+  max-width: 800px;
+}
+
+/* === FLEX VERSION === */
+header {
+  background-color: #d1eeb2;
+  box-shadow: 8px 7px 7px 7px #aedb7a;
+  border-radius: 10px/20px;
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  background-color: #d1eeb2;
+  box-shadow: 8px 7px 7px 7px #aedb7a;
+  border-radius: 10px/20px;
+  font-family: 'Poppins', sans-serif;
+  flex-shrink: 1;
+  max-width: 8rem;
+  margin: .25rem;
+  padding: .25rem;
+}
+
+header h1 {
+  flex-shrink: 1;
+  text-align: center;
+  color: #333333;
+  background: #09420e;
+  margin: .30rem;
+  padding: .30rem;
+}
+
+nav {
+  background-color: #d1eeb2;
+  box-shadow: 8px 7px 7px 7px #aedb7a;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  background: #fffc32;
+}
+
+nav div,
+nav a:hover {
+  font-stretch: expanded;
+  color: #3280f5;
+  box-shadow: 2px 6px 12px rgba(70, 238, 182, 0.5);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+ul, div {
+  font-family: 'Poppins', sans-serif;
+  text-align: justify;
+}
+
+nav div {
+  margin: 1rem 2rem;
+}
+
+main div {
+  margin: 1rem 1rem;
+}
+
+footer {
+  background-color: #d1eeb2;
+  box-shadow: 8px 7px 7px 7px #aedb7a;
+  border-radius: 10px/20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 4rem;
+  width: 100%;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #0e8303;
+  background: #17f5d7;
+  padding-left: .5rem;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #318003;
+  background: #17f5d7;
+  padding-left: .5rem;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  color: #000000;
+  text-align: center;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  color: #333333;
+  text-align: justify;
+}
+
+td, th {
+  border: 1px solid #000000;
+  padding: .5rem;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+}
+
+th {
+  color: white;
+  background: #6a6a6a;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*Home page*/
+.purpose_heading {
+  padding-left: 1rem;
+}
+
+/*TYPOGRAPHY PAGE*/
+
+table tr:nth-child(2) td:nth-child(4),
+table tr:nth-child(2) td:nth-child(5) {
+  color: #aedb7a;
+  background: #ffffff;
+}
+
+table tr:nth-child(3) td:nth-child(4),
+table tr:nth-child(3) td:nth-child(5) {
+  color: #3280f5;
+  background: #fffc32;
+}
+
+/* Footer Navigation - Color, Sample Text */
+table tr:nth-child(4) td:nth-child(4),
+table tr:nth-child(4) td:nth-child(5) {
+  color: #0e0000;
+  background: #aedb7a;
+}
+
+/* <h1> - Color, Sample Text */
+table tr:nth-child(5) td:nth-child(4),
+table tr:nth-child(5) td:nth-child(5) {
+  color: #318003;
+  background: #17f5d7;
+}
+
+/* <h2> - Color, Sample Text */
+table tr:nth-child(6) td:nth-child(4),
+table tr:nth-child(6) td:nth-child(5) {
+  color: #616161;
+  background: #f3f3f3;
+}
+
+/* <p> - Color, Sample Text */
+table tr:nth-child(8) td:nth-child(4),
+table tr:nth-child(8) td:nth-child(5) {
+  color: #333333;
+}
+
+/*TABLE SAMPLE TEXT COLUMN by cell*/
+/* Site Header - Color, Sample Text */
+table tr:nth-child(2) td:nth-child(5) {
+  font-size: 40px;
+}
+
+/* Primary Navigation - Sample Text */
+table tr:nth-child(3) td:nth-child(5) {
+  font-size: 30px;
+}
+
+/* Footer Navigation - Sample Text */
+table tr:nth-child(4) td:nth-child(5) {
+  font-size: 20px;
+}
+
+/* <h1> - Sample Text */
+table tr:nth-child(5) td:nth-child(5) {
+  font-size: 30px;
+}
+
+/*<h2> - Sample Text*/
+table tr:nth-child(6) td:nth-child(5) {
+  font-size: 25px;
+}
+
+/*<h3> - Sample Text*/
+table tr:nth-child(7) td:nth-child(5) {
+  font-size: 20px;
+}
+
+/*<p> - Sample Text*/
+table tr:nth-child(8) td:nth-child(5) {
+  font-size: 16px;
+}
+
+/*h5 headings - Sample Typ. Continued*/
+.typography_heading {
+  font-size: 1.5rem;
+}
+
+/*Sample Typography Continued*/
+.typography_header {
+  color: #aedb7a;
+  background: #ffffff;
+  font-size: 40px;
+  font-family: 'poppins', sans-serif;
+  font-weight: 700;
+  padding-left: .5rem;
+}
+.typography_nav {
+  color: #3280f5;
+  background: #fffc32;
+  font-size: 30px;
+  font-family: 'poppins', sans-serif;
+  font-weight: normal;
+  padding-left: .5rem;
+}
+.typography_footer {
+  color: #626460;
+  background: #d1eeb2;
+  font-size: 20px;
+  font-family: 'poppins', sans-serif;
+  font-weight: normal;
+  padding-left: .5rem;
+}
